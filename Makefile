@@ -110,6 +110,9 @@ all: docs $(PROGRAM).static
 version: ## show the current version
 	@echo $(VERSION)
 
+sversion: ## show the current sversion
+	@echo $(SVERSION)
+
 program: ## show the program name
 	@echo $(PROGRAM)
 
